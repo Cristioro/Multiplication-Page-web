@@ -1,4 +1,4 @@
-const mul = +document.getElementById("inputMul")
+const mul = document.getElementById("inputMul")
 const btnMul = document.getElementById("btnMul")
 const ResultTheShow = document.querySelectorAll("#show")
 
