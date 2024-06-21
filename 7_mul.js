@@ -1,4 +1,4 @@
-const mul = document.getElementById("inputMul")
+const mul = parseFloat(document.getElementById("inputMul").value)
 const btnMul = document.getElementById("btnMul")
 const ResultTheShow = document.querySelectorAll("#show")
 
@@ -13,7 +13,7 @@ const multiplication = function() {
       for (let v = 0; v < 2; v++) {
         const elementShow = ResultTheShow[r];
         const elementInfo = info[v]
-        console.log(elementShow)
+        console.log(mul)
         
         elementShow.innerHTML = elementInfo
      }
